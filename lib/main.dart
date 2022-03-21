@@ -67,7 +67,9 @@ class MyApp extends StatelessWidget {
     ),
     );
     return MaterialApp(
-    title: 'Flutter layout Demo',
+      debugShowCheckedModeBanner: false,
+
+      title: 'Flutter layout Demo',
     home: Scaffold(
     appBar: AppBar(
     title: const Text('Flutter layout demo'),
